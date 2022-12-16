@@ -1,4 +1,4 @@
-# <img src="./avatar.jpg" style="height: 100px; width:100px;"/> **Yauheniya Valiushka**
+# <img src="./images/avatar.jpg" style="height: 100px; width:100px;"/> **Yauheniya Valiushka**
 
 **Phone:** (48) 572 234 427\
 **E-mail:** eugene.valyushko@gmail.com\
@@ -8,6 +8,12 @@
 <p> I'm ready to learn something new, open to any information and enthusiastic about front-end development. My goal is to gain knowledge and skills to become successful in this sphere. </p>
 
 ## **Code example:**
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
 
 ## **Work Expirience:**
 * [Carnival Gift Shop](https://github.com/ewgval/carnival-gift-shop)
