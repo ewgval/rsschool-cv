@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Bold.ttf");
+  font-weight: 700;
+}
+
+:root {
+  --light-green: #d1dad8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+header {
+  background-color: var(--light-green);
+}
+
+footer {
+  background-color: var(--light-green);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+pre {
+  margin: 0 auto;
+  width: 60%;
+}
+
+code {
+  padding: 1em;
+  display: block;
+  overflow-x: auto;
+  background-color: rgba(209, 218, 216, 0.5);
+
+}
+
+.link {
+  color: #767b7a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: black;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 35px;
+}
+
+.section-divider {
+  border-top: 3px solid var(--light-green);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list-footer {
+  justify-content: space-between;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.about-myself-text {
+  text-align: center;
+}
